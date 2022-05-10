@@ -16,7 +16,6 @@ BrowserWindow::BrowserWindow(Browser *browser, QWebEngineProfile *profile, bool 
 {
     setAttribute(Qt::WA_DeleteOnClose, true);
     setFocusPolicy(Qt::ClickFocus);
-    BncLogWriter::init();
     if (!forDevTools) {
 //        setWindowFlags(Qt::FramelessWindowHint | windowFlags());
 //        showMaximized();

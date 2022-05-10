@@ -3,7 +3,6 @@
 
 #include <QMainWindow>
 #include <QWebEnginePage>
-#include <bnclogwriter.h>
 
 class Browser;
 class TabWidget;

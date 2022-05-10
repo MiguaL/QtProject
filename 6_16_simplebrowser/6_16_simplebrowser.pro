@@ -37,8 +37,6 @@ HEADERS += \
 
 INCLUDEPATH += $$PWD/../out/include/
 
-LIBS += $$PWD/../out/lib/qslog/QsLog2.lib
-
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
